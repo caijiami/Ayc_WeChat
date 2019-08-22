@@ -1,0 +1,71 @@
+@import "../../assets/scss/variables";
+
+.fx-index-wrap{
+}
+.index-background-view{
+  background-color: #9cb9f5;
+  width:100%;
+  height:10rem;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  position: relative;
+}
+.index-swiper-view{
+  width:90%;
+  height:10rem;
+  position: absolute;
+  top:1rem;
+  left:5%;
+}
+.index-swiper-img{
+  width:100%;
+  height:100%;
+}
+.swiper-img{
+  min-width:100%;
+  min-height:100%;
+}
+.index-grid-view{
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height:6rem;
+}
+.grid-img{
+  width: 3rem;
+  height: 3rem;
+}
+.grid-text{
+  font-size: 32px;
+  color:#F8967B;
+  font-weight: 500;
+}
+
+.index-activity-box{
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.index-activity-bgimg{
+  width:100%;
+  height:5rem;
+  background-image: url("https://caijiami.club:4550/index/ting.jpg");
+  background-position: center right;
+  background-repeat: no-repeat;
+  background-size:  10rem;
+  background-color: #fff;
+}
+.activity-img{
+  width:10rem;
+  height:5rem;
+  margin-left: 3rem;
+  margin-top: 0.3rem;
+}
+.cont_date_view{
+  margin-left: 3rem;
+  margin-top: 0.1rem;
+  margin-bottom: 1rem;
+}

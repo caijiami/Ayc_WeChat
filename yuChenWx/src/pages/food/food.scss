@@ -1,0 +1,100 @@
+@import "../../assets/scss/variables";
+
+.food_top_title_view{
+  width:100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.food_top_title_img{
+  width:600px;
+  height:150px;
+}
+.food_running_view{
+  width:100%;
+  display: flex;
+  flex-direction: row;
+}
+.food_running_box{
+  width:50%;
+}
+//公共流水view样式
+.food_jb_bg_view{
+  width:100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size:100% 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.food_jb_bg_text{
+  font-size: 40px;
+  font-weight: 700;
+
+}
+//红烧
+.food_braise_view{
+  height:300px;
+  background-image: url("https://caijiami.club:4550/food/jianbian1.jpg");
+}
+.food_braise_text{
+  color: #89bdff;
+}
+//清蒸
+.food_steamed_view{
+  height:400px;
+  background-image: url("https://caijiami.club:4550/food/jianbian2.jpg");
+}
+.food_steamed_text{
+  color: #76ffaa;
+}
+//盐焗
+.food_baked_view{
+  height:500px;
+  background-image: url("https://caijiami.club:4550/food/jianbian3.jpg");
+}
+.food_baked_text{
+  color: #d384ff;
+}
+//煎炸
+.food_frying_view{
+  height:300px;
+  background-image: url("https://caijiami.club:4550/food/jianbian4.jpg");
+}
+.food_frying_text{
+  color: #c6ff2f;
+}
+//爆炒
+.food_stir_view{
+  height:500px;
+  background-image: url("https://caijiami.club:4550/food/jianbian5.jpg");
+}
+.food_stir_text{
+  color: #85e9ff;
+}
+//滑溜
+.food_sliminess_view{
+  height:500px;
+  background-image: url("https://caijiami.club:4550/food/jianbian6.jpg");
+}
+.food_sliminess_text{
+  color: #ff91c8;
+}
+//杭帮
+.food_hang_view{
+  height:400px;
+  background-image: url("https://caijiami.club:4550/food/jianbian7.jpg");
+}
+.food_hang_text{
+  color: #a4ff4f;
+}
+//四川
+.food_chan_view{
+  height:300px;
+  background-image: url("https://caijiami.club:4550/food/jianbian8.jpg");
+}
+.food_chan_text{
+  color: #ff9164;
+}

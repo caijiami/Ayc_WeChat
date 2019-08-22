@@ -1,0 +1,104 @@
+@import "~taro-ui/dist/style/index.scss";
+//自制标题
+.index-activity-view{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.index-activity-line{
+  width:5px;
+  height:30px;
+  margin-left: 1rem;
+  background-color: #9cb9f5;
+}
+.index-activity-text{
+  font-size: 28px;
+  color:#000;
+  font-weight: 500;
+  margin-left: 1rem;
+}
+
+//自制时间进度条
+.circle_view_yellow{
+  width:1rem;
+  height:1rem;
+  background-color: #FF9800;
+  border-radius: 50%;
+}
+.circle_view_white{
+  width:1rem;
+  height:1rem;
+  background-color: #fff;
+  border-radius: 50%;
+  border: 1px solid #9B93A4;
+}
+.circle_view_blue{
+  width:1rem;
+  height:1rem;
+  background-color: #3C87FF;
+  border-radius: 50%;
+  border: 1px solid #9B93A4;
+}
+.circle_line{
+  width:1px;
+  height:4rem;
+  background-color: #D1D1D1;
+  border-left-color: #D1D1D1;
+  border-left-style: solid;
+  border-left-width: 1px;
+}
+.timer_shaft_box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.timer_shaft_box_left{
+  display: flex;
+  flex-direction: column;
+}
+.timer_shaft_text{
+  font-size: 24px;
+  color:#958C8E;
+}
+.timer_shaft_text_yellow{
+  font-size: 24px;
+  color:#FFCC80;
+}
+//横向滚动视图
+.order_middle_scroll{
+  width:100%;
+  white-space:nowrap;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.order_middle_scroll_view{
+  display: inline-block;
+}
+.order_middle_scroll_box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.order_middle_scroll_img{
+  height:300px;
+  width:400px;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  border-radius: 10%;
+}
+.order_middle_scroll_text{
+  margin-top: 0.3rem;
+  font-size: 30px;
+  color: #9cb9f5;
+}
+
+//双图瀑布流
+.more_view{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.more_view_img{
+  width:50%;
+}
+
